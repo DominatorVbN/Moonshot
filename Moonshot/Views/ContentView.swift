@@ -34,6 +34,7 @@ struct ContentView: View {
                     RoundedRectangle(cornerRadius: 15)
                         .fill(
                             Color(UIColor.systemGroupedBackground)))
+                    .shadow(radius: 0, x: 0, y: 0.5)
             }.navigationBarTitle("Moonshoot")
         }
     }
